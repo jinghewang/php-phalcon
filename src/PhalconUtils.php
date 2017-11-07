@@ -29,4 +29,14 @@ class PhalconUtils
     public static function test($message){
         echo "test:$message";
     }
+
+
+    /**
+     * test
+     * @author wjh 2017-11-06
+     * @param string $message
+     */
+    public static function testUtils($message){
+        Woodw\Utils\Utils::hello($message);
+    }
 }
