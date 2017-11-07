@@ -37,6 +37,6 @@ class PhalconUtils
      * @param string $message
      */
     public static function testUtils($message){
-        Woodw\Utils\Utils::hello($message);
+        \Woodw\Utils\Utils::hello($message);
     }
 }
