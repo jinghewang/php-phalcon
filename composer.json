@@ -1,0 +1,23 @@
+{
+    "name": "woodw/php-phalcon",
+    "description": "php phalcon",
+    "keywords": ["php", "phalcon"],
+    "homepage": "http://github.com/jinghewang/php-phalcon",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jinghewang",
+            "email": "jinghewang@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "psr/log": "^1.0.1",
+        "beberlei/assert": "^2.7",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {"Woodw\\Phalcon\\": "src/"}
+    }
+}
